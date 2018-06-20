@@ -14,7 +14,7 @@
           "comment variable"
         ],
         "settings": {
-          "foreground": "#888"
+           "foreground": "#888"
         }
       },
       { // Type annotations in function params
@@ -27,9 +27,12 @@
       }
     ]
   },
+  "explorer.confirmDragAndDrop": false,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
   "html.autoClosingTags": false,
   "html.suggest.ionic": false,
   "jsDocCompletion.enabled": false,
@@ -45,8 +48,5 @@
   },
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "seti",
-  "workbench.statusBar.feedback.visible": false,
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
-  "explorer.confirmDragAndDrop": false
+  "workbench.statusBar.feedback.visible": false
 }
